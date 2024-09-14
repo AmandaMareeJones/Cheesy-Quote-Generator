@@ -1,5 +1,8 @@
 body {
-  background-color: burlywood;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/143/353/original/cheese-food.gif?1726295990");
+  background-position: right;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
