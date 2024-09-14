@@ -9,34 +9,36 @@
     <title>Cheesy Quote Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Cheesy Quote Generator</h1>
-    </header>
-    <main>
-      <form action="">
-        <input
-          type="text"
-          placeholder="Enter your topic for the quote"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" name="Submit" id="submit" />
-      </form>
-      <div id="quote">The quote will appear here</div>
-    </main>
-
-    <footer>
-      This project was coded by <strong>Amanda Jones</strong> and is open
-      sourced on
-      <a
-        href="https://github.com/AmandaMareeJones/Cheesy-Quote-Generator"
-        target="_blank"
-        >Github</a
-      >
-      and hosted on
-      <a href="https://cheesy-quotes.netlify.app/" target="_blank">Netlify</a>
-    </footer>
-    <script src="index.js"></script>
+    <div class="container" id="container">
+      <header>
+        <h1>Cheesy Quote Generator</h1>
+      </header>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Enter your topic for the quote"
+            autofocus
+            required
+            autocomplete="off"
+            class="prompt"
+          />
+          <input type="submit" class="button" name="Submit" id="submit" />
+        </form>
+        <div class="quote" id="quote">The quote will appear here</div>
+      </main>
+      <footer>
+        This project was coded by <strong>Amanda Jones</strong> and is open
+        sourced on
+        <a
+          href="https://github.com/AmandaMareeJones/Cheesy-Quote-Generator"
+          target="_blank"
+          >Github</a
+        >
+        and hosted on
+        <a href="https://cheesy-quotes.netlify.app/" target="_blank">Netlify</a>
+      </footer>
+      <script src="index.js"></script>
+    </div>
   </body>
 </html>

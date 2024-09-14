@@ -1,1 +1,70 @@
+body {
+  background-color: burlywood;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
 
+a {
+  color: brown;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5px;
+  color: blue;
+}
+
+header {
+  margin-bottom: 38px;
+}
+
+form {
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 30px;
+  box-shadow: 0px, 20px, 60px rgba(65, 50, 100, 0.08);
+}
+
+.prompt {
+  padding: 16px;
+  border: grey;
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+  color: blue;
+}
+
+.button {
+  margin-left: 12px;
+  background-color: rgb(240, 217, 11);
+  color: aliceblue;
+  border: none;
+  border-radius: 50px;
+  width: 150px;
+  padding: 14px 24px;
+  font-size: 16px;
+}
+
+.quote {
+  font-size: 14px;
+  background-color: white;
+  padding: 20px;
+  line-height: 2;
+  border-radius: 10px;
+  box-shadow: 0px, 20px, 60px rgba(65, 50, 100, 0.08);
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 12px;
+}
