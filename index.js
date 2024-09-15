@@ -13,7 +13,7 @@ function generateQuote(event) {
   let userCheese = document.querySelector("#user-submit");
   let apiKey = "09te212a1c952dfb01916b44eoad6c23";
   let context =
-    "you are an intelligent AI Assistant, who provides funny quotes about the type of cheese type submitted by the user. You need to read the value the user submits in the form.You need to identify the cheese type the user has provided before they click the submit button. The user always provides their choice of cheese. If you do not read a cheese type, provide a cheesy quote anyway. Provide the quote in HTML and present each sentance on a separate line. Do not show the word HTML";
+    "you are an intelligent AI Assistant, who provides funny quotes about the type of cheese type submitted by the user. You need to read the value the user submits in the form.You need to identify the cheese type the user has provided before they click the submit button. The user always provides their choice of cheese. If you do not read a cheese type, provide a cheesy quote anyway. Provide the quote in HTML and present each sentance on a separate line. Do not show the word HTML. Only provide one quote please";
   let prompt = `User Submit: Tell me a quote about ${userCheese.value}`;
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
