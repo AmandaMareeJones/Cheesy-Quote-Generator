@@ -21,10 +21,6 @@ function generateQuote(event) {
   quoteElement.classList.remove("hidden");
   quoteElement.innerHTML = `<div class="blink"> Generating your cheesy quote about ${userCheese.value}...⌛</div>`;
 
-  console.log("Generating quote");
-  console.log(`Prompt: ${prompt}`);
-  console.log(`Context: ${context}`);
-
   axios.get(apiUrl).then(displayQuote);
 }
 
